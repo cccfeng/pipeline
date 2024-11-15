@@ -23,4 +23,5 @@ const (
 	DefaultResultPath = "/tekton/results"
 	// HomeDir is the HOME directory of PipelineResources
 	HomeDir = "/tekton/home"
+	HomeDir2 = "/tekton/home2"
 )
