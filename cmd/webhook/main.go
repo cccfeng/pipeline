@@ -62,6 +62,7 @@ var types = map[schema.GroupVersionKind]resourcesemantics.GenericCRD{
 
 func newDefaultingAdmissionController(ctx context.Context, cmw configmap.Watcher) *controller.Impl {
 	// Decorate contexts with the current state of the config.
+	// Decorate contexts with the current state of the config.
 	store := defaultconfig.NewStore(logging.FromContext(ctx).Named("config-store"))
 	store.WatchConfigs(cmw)
 
