@@ -32,6 +32,7 @@ const (
 	// ControllerLogKey is the name of the logger for the controller cmd
 	ControllerLogKey = "tekton"
         ControllerLogKey2 = "tekton2"
+	ControllerLogKey3 = "tekton3"
 )
 
 var (
